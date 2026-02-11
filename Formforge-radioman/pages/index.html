@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <h1>FormForge</h1>
+  <p>Create and embed forms in seconds.</p>
+
+  <form id="create">
+    <input placeholder="Form ID" />
+    <input placeholder="Form Name" />
+    <button>Create Form</button>
+  </form>
+
+  <script>
+    document.querySelector("#create").onsubmit = async e => {
+      e.preventDefault();
+      const [id, name] = [...e.target.querySelectorAll("input")].map(i => i.value);
+
+      await fetch("/api/forms/create", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ id, name })
+      });
+
+      alert("Form created");
+    };
+  </script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+formforge/
+├─ api/
+│  ├─ forms/
+│  │  ├─ create.js
+│  │  ├─ submissions.js
+│  ├─ submit.js
+├─ lib/
+│  └─ db.js
+├─ public/
+│  └─ formforge.js
+├─ pages/
+│  ├─ index.html
+│  ├─ dashboard.html
+│  └─ styles.css
+├─ package.json
+├─ vercel.json
+└─ README.md

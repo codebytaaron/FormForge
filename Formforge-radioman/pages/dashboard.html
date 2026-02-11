@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <h2>Dashboard</h2>
+  <input id="formId" placeholder="Form ID" />
+  <button onclick="load()">Load</button>
+  <pre id="out"></pre>
+
+  <script>
+    async function load() {
+      const id = document.getElementById("formId").value;
+      const res = await fetch(`/api/forms/submissions?formId=${id}`);
+      document.getElementById("out").textContent =
+        JSON.stringify(await res.json(), null, 2);
+    }
+  </script>
+</body>
+</html>
