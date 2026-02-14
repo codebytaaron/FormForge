@@ -1,27 +1,32 @@
-# FormForge
+FormForge – Form Platform Showcase
 
 FormForge is a lightweight form platform that allows forms to be created, embedded on any site, and used to collect submissions with basic visibility.
 
----
-
-# ⚠️ Usage Notice
+Usage Notice
 
 This repository is shared for visibility and reference only.
 
 Please do not use, copy, modify, deploy, or redistribute any part of this project without contacting me first.
 
-If you want access, a walkthrough, or a demo, reach out.
+Overview
 
----
+FormForge is built as a simple and flexible form creation and submission system.
 
-## What This Is
+It is designed to serve as the foundation for a larger hosted product.
 
-- A form creation and submission system
-- Supports embeddable forms via a simple script
-- Includes a basic dashboard for viewing submissions
-- Designed as a foundation for a larger hosted product
+Key capabilities include:
+
+- Form creation and submission handling  
+- Embeddable forms via a lightweight script  
+- Basic dashboard for viewing responses  
+- Scalable structure for future expansion  
 
 
-Reach out via the link in my bio or open an issue.
+Project Status
 
----
+Private / Reference Only
+
+
+Access
+
+Reach out via the link in my bio or open an issue for demos, walkthroughs, or collaboration.
